@@ -1,0 +1,57 @@
+body {
+    margin: 0%;     
+    justify-content: center;   
+}
+
+.encabezado {
+    font-family: Arial, Helvetica, sans-serif;    
+    background-color: black;
+    height: 3vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.encabezado a {
+    color: white;
+}
+
+.seccion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh; 
+}
+
+    .texto {   
+        font-family: Arial;
+        width: 40%;
+    }
+
+    .texto h1 {
+        font-size: 150%;
+    }
+
+    .imagen {
+        width: 30%;        
+    }
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagenes img {
+    width: 33.33%;
+}
+
+#tituloBlog{
+    text-align: center;
+}
+
+.imagen1 {
+    width: 40%;
+}
+
